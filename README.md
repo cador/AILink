@@ -35,6 +35,18 @@ export BAICHUAN_API_KEY=sk-?
 ```
 The environment variables for other providers are set in a similar pattern, following the {PROVIDER}_API_KEY format. Here, PROVIDER should be replaced with the name of the provider as listed in "The Supported Providers," using all uppercase letters.
 
+For example, the following case:
+```bash
+# - 阿里云[aliyun]
+export ALIYUN_API_KEY=sk-?
+# - 百度[baidu]
+export BAIDU_API_KEY=sk-?
+#  - 智谱[zhipu]
+export ZHIPU_API_KEY=sk-?
+#  - 字节跳动[bytedance]
+export BYTEDANCE_API_KEY=sk-?
+```
+
 1. Standard usage
 
 ```python
