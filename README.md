@@ -39,12 +39,19 @@ For example, the following case:
 ```bash
 # - 阿里云[aliyun]
 export ALIYUN_API_KEY=sk-?
+# AILink(model="aliyun:qwen-plus")
+
 # - 百度[baidu]
 export BAIDU_API_KEY=sk-?
+# AILink(model="baidu:ernie-4.0-8k-latest")
+
 #  - 智谱[zhipu]
 export ZHIPU_API_KEY=sk-?
+# AILink(model="zhipu:GLM-4-Plus")
+
 #  - 字节跳动[bytedance]
 export BYTEDANCE_API_KEY=sk-?
+# AILink(model="bytedance:Doubao-lite-4k")
 ```
 
 1. Standard usage
