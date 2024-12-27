@@ -1,6 +1,6 @@
 # AILink
 
-AILink is a library that mainly connects to the use of domestic large models, which is encapsulated and implemented based on compatible OpenAI interfaces. Through the AILink library, users only need to configure a {provider}_API_KEY to quickly connect and use domestic large models, which is quite convenient.
+AILink is a library that mainly connects to the use of domestic large models, which is encapsulated and implemented based on compatible OpenAI interfaces. Through the AILink library, users only need to configure a {PROVIDER}_API_KEY to quickly connect and use domestic large models, which is quite convenient.
 
 ## The Supported Providers
 their corresponding large models include:
@@ -28,6 +28,12 @@ pip install AILink
 ## Usage
 
 AILink will retain the same interface as OpenAI, and is fully compatible with OpenAI's usage, except for the instantiation of objects.
+
+Before executing the code, you need to set up environment variables, for example:
+```bash
+export BAICHUAN_API_KEY=sk-?
+```
+The environment variables for other providers are set in a similar pattern, following the {PROVIDER}_API_KEY format. Here, PROVIDER should be replaced with the name of the provider as listed in "The Supported Providers," using all uppercase letters.
 
 1. Standard usage
 
